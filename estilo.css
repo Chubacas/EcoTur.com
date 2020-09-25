@@ -1,0 +1,219 @@
+*{
+	margin: 0px;
+}
+
+
+body{
+	background-color: rgb(0, 132, 255);
+	font-family: 'Nunito', sans-serif; 
+}
+
+h1{
+	font-size: 30px;
+	color: whitesmoke;
+}
+
+h1 strong{
+	color: #99cc00;
+}
+
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	height: inherit;
+}
+
+.header{
+	background: rgb(0, 132, 255);
+	color: whitesmoke;
+	display: flex;
+	justify-content: space-between;
+	height: 90px;
+}
+
+.header img{
+	padding: 20px;
+}
+
+.header li{
+	height: inherit;
+}
+
+.header a{
+	color: whitesmoke;
+	text-decoration: none;
+	height: inherit;
+	display: flex;
+	align-items: center;
+	padding: 0px 10px;
+}
+
+.logo img{
+width:100px ;
+}
+
+.menu{
+	height: inherit;
+}
+
+.principal {
+	background-color: blue;
+	background-image: url("img/lago.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding: 100px;
+}
+
+.principal img{
+width: 300px;
+}
+
+.somos {
+  background-color:  rgb(0, 132, 255);
+	text-align: center;
+	padding: 50px;
+	margin: 0px;
+	font-size: 35px;
+	color: whitesmoke;
+}
+
+.somos h2{
+	color: #cc0000;
+	margin-bottom: 10px;
+}
+
+.somos p{
+	margin-bottom: 20px;
+}
+
+.principal-boton{
+	width: 250px;
+	height: 40px;
+	background-color: #99cc00;
+	border-radius: 24px;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+	margin-top: 30px;
+}
+
+.tercera{
+	background-color: green;
+	text-align: right;
+	padding: 200px 50px;
+	margin: 50px;
+}
+
+.padre{
+   background-color: white;
+   display: flex;
+   flex-wrap: nowrap;
+   flex-direction: column;
+   justify-content: center;
+   height: 500px;
+   align-items: center;
+   color: white;
+}
+.hijo{ 
+	background-color: orange;
+	width: 200px;
+	height: 200px;
+	border: 2px solid yellowgreen;
+	font-size: 30px;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.aplicar{
+	height: 500px;
+	background-color: yellowgreen;
+	display: flex;
+	color: black;
+	margin: 0px;
+}
+
+.aplicar-detalles{
+	width: 50%;
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	padding: 0px 30px;
+	font-size: 20px;
+	text-align: left;
+}
+
+.aplicar h3{
+padding: 3px;
+}
+.aplicar-detalles img{
+	height: 90%;
+	align-items: left;
+}
+
+.contactos h3{
+padding: 20px;
+font-size: 25px;
+}
+
+.container1{
+	display: flex;
+	background: black;
+	color: whitesmoke;
+	padding: 20px;
+	justify-content: space-around;
+}
+
+.container2{
+	background: rgb(0, 132, 255)
+}
+
+.col1-container1{
+    width: 400px;
+	}
+
+.col2-container1{
+    width: 200px;
+}
+
+.col3-container1{
+    width: 300px;
+}
+
+.row1-contacto img{
+	width: 50px;
+	height: 45px;
+}
+
+.row2-contacto img{
+	width: 47px;
+	height: 47px;
+}
+
+.row1-redes img{
+	width: 45px;
+	height: 45px;
+}
+
+.row1-contacto{
+	display: flex;
+	margin: 10px 0px;
+}
+
+.row1-contacto p{
+	padding-left: 10px;
+}
+
+.col2-container1 p{
+	text-decoration: none;
+	color: whitesmoke;
+	align-items: center;
+}
